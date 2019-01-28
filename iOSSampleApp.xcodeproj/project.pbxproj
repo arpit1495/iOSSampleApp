@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A2756F421FEF02C00039875 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2756F321FEF02C00039875 /* AboutViewController.swift */; };
+		7A2756FA21FF231800039875 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 7A2756F921FF231800039875 /* BullsEye.html */; };
 		7A750C0021FAE22F0052F296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A750BFF21FAE22F0052F296 /* AppDelegate.swift */; };
 		7A750C0221FAE22F0052F296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A750C0121FAE22F0052F296 /* ViewController.swift */; };
 		7A750C0521FAE22F0052F296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A750C0321FAE22F0052F296 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A2756F321FEF02C00039875 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		7A2756F921FF231800039875 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		7A750BFC21FAE22F0052F296 /* iOSSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A750BFF21FAE22F0052F296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A750C0121FAE22F0052F296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,8 +103,10 @@
 		7A750BFE21FAE22F0052F296 /* iOSSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				7A2756F921FF231800039875 /* BullsEye.html */,
 				7A750BFF21FAE22F0052F296 /* AppDelegate.swift */,
 				7A750C0121FAE22F0052F296 /* ViewController.swift */,
+				7A2756F321FEF02C00039875 /* AboutViewController.swift */,
 				7A750C0321FAE22F0052F296 /* Main.storyboard */,
 				7A750C0921FAE22F0052F296 /* Assets.xcassets */,
 				7A750C0B21FAE22F0052F296 /* LaunchScreen.storyboard */,
@@ -196,7 +202,7 @@
 				TargetAttributes = {
 					7A750BFB21FAE22F0052F296 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					7A750C1221FAE22F0052F296 = {
 						CreatedOnToolsVersion = 9.2;
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A750C0D21FAE22F0052F296 /* LaunchScreen.storyboard in Resources */,
+				7A2756FA21FF231800039875 /* BullsEye.html in Resources */,
 				7A750C0A21FAE22F0052F296 /* Assets.xcassets in Resources */,
 				7A750C0521FAE22F0052F296 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +271,7 @@
 			files = (
 				7A750C0221FAE22F0052F296 /* ViewController.swift in Sources */,
 				7A750C0021FAE22F0052F296 /* AppDelegate.swift in Sources */,
+				7A2756F421FEF02C00039875 /* AboutViewController.swift in Sources */,
 				7A750C0821FAE22F0052F296 /* iOSSampleApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,8 +438,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ26JYG8YG;
 				INFOPLIST_FILE = iOSSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arpitmheshwari.iOSSampleApp;
@@ -446,12 +455,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZ26JYG8YG;
 				INFOPLIST_FILE = iOSSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arpitmheshwari.iOSSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
